@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap"
+      rel="stylesheet"/>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="nav_checkbox">
+          <h3 class="logo">beginner</h4>
+          <input type="checkbox" id="tab-nav" class="tab-nav" />
+          <label for="tab-nav" class="label">
+            <div class="burger"></div>
+            <div class="burger"></div>
+            <div class="burger"></div>
+          </label>
+          <ul class="content_nav">
+            <li><a href="#" onclick="abrirUrl('src/lvl1/lvl1.html', 'contenedor_principal')">Lvl 1</a></li>
+            <li><a href="#" onclick="abrirUrl('src/lvl2/lvl2.html', 'contenedor_principal')">Lvl 2</a></li>
+            <li><a href="#">Lvl 3</a></li>
+            <li><a href="#">Lvl 4</a></li>
+            <li><a href="#">Lvl 5</a></li>
+            <li><a href="#">Lvl 6</a></li>
+            <li><a href="#">Lvl 7</a></li>
+            <li><a href="#">Lvl 8</a></li>
+            <li><a href="#">Lvl 9</a></li>
+            <li><a href="#">Lvl 10</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div id="contenedor_principal"></div>
+  </body>
+</html>
